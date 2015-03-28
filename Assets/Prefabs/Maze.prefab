@@ -2107,7 +2107,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 459904}
-  - 114: {fileID: 11459880}
   m_Layer: 0
   m_Name: MazePassage(Clone)
   m_TagString: Untagged
@@ -2161,7 +2160,6 @@ GameObject:
   - 33: {fileID: 3359730}
   - 64: {fileID: 6459706}
   - 23: {fileID: 2359730}
-  - 114: {fileID: 11459886}
   m_Layer: 0
   m_Name: Quad
   m_TagString: Untagged
@@ -3889,7 +3887,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 477856}
-  - 114: {fileID: 11477768}
   m_Layer: 0
   m_Name: MazeWall(Clone)
   m_TagString: Untagged
@@ -6220,7 +6217,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 478132}
-  - 114: {fileID: 11477966}
   m_Layer: 0
   m_Name: MazeWall(Clone)
   m_TagString: Untagged
@@ -19242,20 +19238,6 @@ MonoBehaviour:
   cell: {fileID: 11459884}
   otherCell: {fileID: 11459888}
   direction: 0
---- !u!114 &11459880
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 159904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08ed50f35627ac74ebf5c2dd0d79da27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell: {fileID: 11459888}
-  otherCell: {fileID: 11459884}
-  direction: 2
 --- !u!114 &11459882
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -19284,20 +19266,6 @@ MonoBehaviour:
   coordinates:
     x: 1
     z: 1
---- !u!114 &11459886
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 159910}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3123125a495424246a276418ac2a2e23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coordinates:
-    x: 0
-    z: 0
 --- !u!114 &11459888
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -20082,20 +20050,6 @@ MonoBehaviour:
   cell: {fileID: 11477780}
   otherCell: {fileID: 11459876}
   direction: 2
---- !u!114 &11477768
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 177856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81aebff061c81a842b62f6170c37ec30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell: {fileID: 11459888}
-  otherCell: {fileID: 11477780}
-  direction: 3
 --- !u!114 &11477770
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -21468,20 +21422,6 @@ MonoBehaviour:
   cell: {fileID: 11459764}
   otherCell: {fileID: 11477976}
   direction: 2
---- !u!114 &11477966
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 178132}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81aebff061c81a842b62f6170c37ec30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell: {fileID: 11477976}
-  otherCell: {fileID: 11459764}
-  direction: 0
 --- !u!114 &11477968
 MonoBehaviour:
   m_ObjectHideFlags: 1
