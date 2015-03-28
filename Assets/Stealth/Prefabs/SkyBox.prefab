@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &192230
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 492230}
+  - 114: {fileID: 11492230}
+  m_Layer: 0
+  m_Name: SkyBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &492230
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 192230}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.39070892, y: .954231083, z: 3.20000005}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11492230
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 192230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0d6937899e520644be65534a6df30d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dayCycleLength: 15
+  currentCycleTime: 0
+  currentPhase: 0
+  hoursPerDay: 24
+  dawnTimeOffset: 3
+  worldTimeHour: 0
+  fullLight: {r: .992156863, g: .972549021, b: .874509811, a: 1}
+  fullDark: {r: .125490203, g: .109803922, b: .180392161, a: 1}
+  dawnDuskSkybox: {fileID: 2100000, guid: 9ba05f538ee36044da5cd2a4f14a8b18, type: 2}
+  dawnDuskFog: {r: .521568656, g: .486274511, b: .400000006, a: 1}
+  daySkybox: {fileID: 2100000, guid: aed3f0b20a950704bb6b1d84899cea48, type: 2}
+  dayFog: {r: .70588237, g: .815686285, b: .819607854, a: 1}
+  nightSkybox: {fileID: 2100000, guid: 5ba172cd3918d7c44aa6d04446119a00, type: 2}
+  nightFog: {r: .0470588244, g: .0588235296, b: .356862754, a: 1}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 192230}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

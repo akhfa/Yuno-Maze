@@ -65,31 +65,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 141704}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ce56080ffec5aa488c31e48f2b46b0d, type: 3}
+  m_Script: {fileID: 11500000, guid: 58311353d285bbd41b479a4150f23091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  items:
-  - itemName: 42617475
-    itemID: 0
-    itemDesc: 5365627561682062656e64612070616461742c206269736120646970696a616b69
-    itemIcon: {fileID: 2800000, guid: 81141ef8c85044242bda6e4f284be0cb, type: 3}
-    itemPower: 0
-    itemSpeed: 0
-    itemType: 0
-  - itemName: 50616c75
-    itemID: 1
-    itemDesc: 536562756168206b616b6173
-    itemIcon: {fileID: 2800000, guid: f33e76be95d9d0a438d24e4b0360fb0f, type: 3}
-    itemPower: 0
-    itemSpeed: 0
-    itemType: 0
-  - itemName: 4170656c
-    itemID: 2
-    itemDesc: 53656275616820627561682d62756168616e20626572766974616d696e2041
-    itemIcon: {fileID: 2800000, guid: 4a09b2e50e2765a4887b996d866a256a, type: 3}
-    itemPower: 0
-    itemSpeed: 0
-    itemType: 1
+  items: []
 --- !u!114 &11441706
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -101,8 +80,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8fb2702e6db1df4ba0f6963cccf46f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slotsX: 0
-  slotsY: 0
+  slotsX: 4
+  slotsY: 4
   slots: []
   inventory: []
 --- !u!1001 &100100000
