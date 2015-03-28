@@ -21,10 +21,6 @@ public class Inventory : MonoBehaviour {
 			inventory.Add(new Item());
 		}
 		database = GameObject.FindGameObjectWithTag("Item Database").GetComponent<ItemDatabase>();
-		AddItem (1);
-		AddItem (0);
-		AddItem (1);
-		AddItem (2);
 	}
 
 	void Update() {
@@ -102,7 +98,7 @@ public class Inventory : MonoBehaviour {
 		return tooltip;
 	}
 
-	void RemoveItem(int id) {
+	public void RemoveItem(int id) {
 		for(int i = 0; i < inventory.Count; i++) {
 			if(inventory[i].itemID == id) {
 				inventory[i] = new Item();
@@ -111,7 +107,7 @@ public class Inventory : MonoBehaviour {
 		}
 	}
 
-	void AddItem(int id) {
+	public void AddItem(int id) {
 		for (int i = 0; i < inventory.Count; i++) {
 			if(inventory[i].itemName == null) {
 				for(int j = 0; j < database.items.Count; j++) {
