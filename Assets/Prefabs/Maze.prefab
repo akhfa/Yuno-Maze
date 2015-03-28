@@ -2193,7 +2193,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 459914}
-  - 114: {fileID: 11459890}
   m_Layer: 0
   m_Name: Maze
   m_TagString: Untagged
@@ -8382,7 +8381,7 @@ Transform:
   m_GameObject: {fileID: 159914}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 459912}
   - {fileID: 459908}
@@ -19313,21 +19312,6 @@ MonoBehaviour:
   coordinates:
     x: 1
     z: 2
---- !u!114 &11459890
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 159914}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 719d1e8f25dd7404c997e4d642a59818, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cellPrefab: {fileID: 11420476, guid: d55f8f198648f314c84dd4e56f958b27, type: 2}
-  generationStepDelay: .00999999978
-  passagePrefab: {fileID: 11448598, guid: a718eb24087d30c4ba24277b188e90db, type: 2}
-  wallPrefab: {fileID: 11466016, guid: 0edb0b92ee5ff0b4592081934297998f, type: 2}
 --- !u!114 &11477658
 MonoBehaviour:
   m_ObjectHideFlags: 1
