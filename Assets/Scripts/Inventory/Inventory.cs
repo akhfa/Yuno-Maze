@@ -25,7 +25,6 @@ public class Inventory : MonoBehaviour {
 		AddItem (0);
 		AddItem (1);
 		AddItem (2);
-		RemoveItem (1);
 	}
 
 	void Update() {

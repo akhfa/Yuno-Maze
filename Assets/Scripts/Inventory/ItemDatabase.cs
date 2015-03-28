@@ -6,8 +6,8 @@ public class ItemDatabase : MonoBehaviour {
 	public List<Item> items = new List<Item>();
 
 	void Start() {
-		items.Add(new Item("Batu", 0, "Sebuah benda padat, bisa dipijaki", 0, 0, Item.ItemType.Weapon));
-		items.Add (new Item("Palu", 1, "Sebuah kakas", 0, 0, Item.ItemType.Weapon));
-		items.Add (new Item("Apel", 2, "Sebuah buah-buahan bervitamin A", 0, 0, Item.ItemType.Consumable));
+		items.Add (new Item ("Bomb", 0, "Bom Waktu \nuntuk menghancurkan batu", 0, 0, Item.ItemType.Weapon));
+		items.Add (new Item ("Land", 1, "Tanah untuk \nmenutup lubang", 0, 0, Item.ItemType.Weapon));
+		items.Add (new Item ("Kunci", 2, "Kunci yang digunakan\nuntuk membuka pintu", 0, 0, Item.ItemType.Weapon));
 	}
 }
