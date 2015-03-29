@@ -13,7 +13,7 @@ public class PlayerPosition : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		playerPos = player.transform.position ();
+		playerPos = player.transform.position;
 		if (playerPos.y < 0)
 			Application.LoadLevel ("Level_1");
 	}
