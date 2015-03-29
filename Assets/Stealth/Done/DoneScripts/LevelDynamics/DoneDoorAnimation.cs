@@ -6,6 +6,7 @@ public class DoneDoorAnimation : MonoBehaviour
 	public bool requireKey;							// Whether or not a key is required.
 	public AudioClip doorSwishClip;					// Clip to play when the doors open or close.
 	public AudioClip accessDeniedClip;				// Clip to play when the player doesn't have the key for the door.
+	public Inventory inventory;
 	
 	
 	private Animator anim;							// Reference to the animator component.
@@ -34,7 +35,7 @@ public class DoneDoorAnimation : MonoBehaviour
 			if(requireKey)
 			{
 				// ... if the player has the key...
-				if(playerInventory.hasKey)
+				if(inventory.InventoryContains(3))
 					// ... increase the count of triggering objects.
 					count++;
 				else

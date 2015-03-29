@@ -1,5 +1,10 @@
-Bunyi ledakan belum ada
 masih bisa pakai bomb dan land dari mana aja
 kondisi mati dan kondisi menang (script falling belum jadi)
 Scoring (ngitung time) Belum bisa. Tapi bisa pake script yang di sini: http://answers.unity3d.com/questions/225213/c-countdown-timer.html 
 	-> tinggal tambah dengan deltatime aja
+
+Cek player position saat jatuh, pake ini gak bisa
+	http://answers.unity3d.com/questions/62480/make-player-die-is-they-fall-for-too-long.html
+
+KOndisi menang -> collide sama sphere collider child dari pintu di mazewall 3,0
+	Liat http://unity3d.com/learn/tutorials/projects/stealth/single-doors
