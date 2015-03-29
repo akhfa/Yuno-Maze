@@ -8,3 +8,5 @@ Cek player position saat jatuh, pake ini gak bisa
 
 KOndisi menang -> collide sama sphere collider child dari pintu di mazewall 3,0
 	Liat http://unity3d.com/learn/tutorials/projects/stealth/single-doors
+	
+Buat check collider, liat di script BombPickUp or KeyPickUp -> untuk finish state atau apapun yang butuh cek collide

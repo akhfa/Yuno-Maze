@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class StoneCrash : MonoBehaviour {
-
+	//Gak kepake
 	public AudioClip keyGrab;                       // Audioclip to play when the key is picked up.
 	
 	
