@@ -20,13 +20,14 @@ public class UseBomb : MonoBehaviour {
 			//var bombb = Instantiate(bomb, transform.position, transform.rotation);
 			//transform.localScale = new Vector3(0.01F, 0.01F, 0.01F);
 			StartCoroutine(placeBomb());
-			Destroy(stone);
-			inventory.AddItem(1);
+
 		}
 	}
 
 	IEnumerator placeBomb()
 	{
-		yield return new WaitForSeconds (100);
+		yield return new WaitForSeconds (5);
+		Destroy(stone);
+		inventory.AddItem(1);
 	}
 }
