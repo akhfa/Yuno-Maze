@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class UseBomb : MonoBehaviour {
-
+	public AudioClip bombSound;
 	private GameObject stone;
 	//public Transform bomb;
 	public Inventory inventory;
@@ -14,12 +14,10 @@ public class UseBomb : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetButtonDown("UseBomb") && inventory.InventoryContains(0))
+		if(Input.GetButtonDown("UseBomb") && inventory.InventoryContains(1))
 		{
 			Debug.Log(inventory.InventoryContains(1));
 			inventory.RemoveItem(1);
-			//var bombb = Instantiate(bomb, transform.position, transform.rotation);
-			//transform.localScale = new Vector3(0.01F, 0.01F, 0.01F);
 			StartCoroutine(placeBomb());
 
 		}
@@ -28,6 +26,7 @@ public class UseBomb : MonoBehaviour {
 	IEnumerator placeBomb()
 	{
 		yield return new WaitForSeconds (5);
+		AudioSource.PlayClipAtPoint(bombSound, transform.position);
 		Destroy(stone);
 		inventory.AddItem(2);
 	}

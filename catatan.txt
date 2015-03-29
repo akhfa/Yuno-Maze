@@ -1,0 +1,3 @@
+Bunyi ledakan belum ada
+masih bisa pakai bomb dan land dari mana aja
+kondisi mati dan kondisi menang (script falling belum jadi)

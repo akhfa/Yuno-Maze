@@ -2,6 +2,7 @@
 using System.Collections;
 
 public class Falling : MonoBehaviour {
+	//BELUM JADI, ADA DI OBJECT CHAR_ETHAN
 
 	// Use this for initialization
 	void Start () {
