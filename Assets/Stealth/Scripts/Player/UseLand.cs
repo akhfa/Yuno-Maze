@@ -16,6 +16,7 @@ public class UseLand : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetButtonDown ("UseLand") && inventory.InventoryContains (2)) {
+			inventory.RemoveItem(2);
 			Debug.Log("Ok");
 			maze.SetActive (true);
 		}

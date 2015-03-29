@@ -11043,7 +11043,7 @@ GameObject:
   - 114: {fileID: 483709112}
   m_Layer: 0
   m_Name: Quad
-  m_TagString: Untagged
+  m_TagString: Maze
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17416,7 +17416,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7665215c8eddc0a44a216110cdeced13, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -8.43999958
+      value: -8.78999996
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7665215c8eddc0a44a216110cdeced13, type: 2}
       propertyPath: m_LocalRotation.x
@@ -18108,6 +18108,8 @@ GameObject:
   - 114: {fileID: 822199045}
   - 114: {fileID: 822199046}
   - 114: {fileID: 822199047}
+  - 114: {fileID: 822199050}
+  - 114: {fileID: 822199049}
   - 114: {fileID: 822199048}
   m_Layer: 0
   m_Name: char_ethan
@@ -18300,7 +18302,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88d69a3f24101ac4f8669c28808b9795, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bombSound: {fileID: 0}
   inventory: {fileID: 1226944125}
+--- !u!114 &822199049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11493334, guid: 7cec51746f71e924ead45b0e3d3d6d23,
+    type: 2}
+  m_PrefabInternal: {fileID: 452459453}
+  m_GameObject: {fileID: 822199038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd20cb4a688495747b726ab6b5dd3610, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: {fileID: 0}
+--- !u!114 &822199050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11493332, guid: 7cec51746f71e924ead45b0e3d3d6d23,
+    type: 2}
+  m_PrefabInternal: {fileID: 452459453}
+  m_GameObject: {fileID: 822199038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d69a3f24101ac4f8669c28808b9795, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bombSound: {fileID: 0}
+  inventory: {fileID: 0}
 --- !u!1 &825132967
 GameObject:
   m_ObjectHideFlags: 0
@@ -33882,6 +33912,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 174040, guid: 568a5ca1229ca5d40b93ac690d54d33a, type: 2}
+      propertyPath: m_TagString
+      value: Maze
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 568a5ca1229ca5d40b93ac690d54d33a, type: 2}
   m_RootGameObject: {fileID: 1239995850}
@@ -42503,7 +42537,7 @@ Transform:
   m_PrefabInternal: {fileID: 799845789}
   m_GameObject: {fileID: 1773829504}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.09000015, y: -.370000005, z: -8.43999958}
+  m_LocalPosition: {x: -4.09000015, y: -.370000005, z: -8.78999996}
   m_LocalScale: {x: .00999999978, y: .00999999978, z: .00999999978}
   m_Children: []
   m_Father: {fileID: 0}

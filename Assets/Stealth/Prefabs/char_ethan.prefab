@@ -799,6 +799,7 @@ GameObject:
   - 114: {fileID: 11480834}
   - 114: {fileID: 11493332}
   - 114: {fileID: 11493334}
+  - 114: {fileID: 11427840}
   m_Layer: 0
   m_Name: char_ethan
   m_TagString: Player
@@ -2544,6 +2545,17 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11427840
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 180770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d15caaa00dbe7c4fa708db463a3039d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11480834
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2595,6 +2607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88d69a3f24101ac4f8669c28808b9795, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bombSound: {fileID: 8300000, guid: 8a37d41ec4357c141a4853e9014cd589, type: 3}
   inventory: {fileID: 0}
 --- !u!114 &11493334
 MonoBehaviour:
