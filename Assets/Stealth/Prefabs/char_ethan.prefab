@@ -797,6 +797,8 @@ GameObject:
   - 114: {fileID: 11480838}
   - 114: {fileID: 11480836}
   - 114: {fileID: 11480834}
+  - 114: {fileID: 11493332}
+  - 114: {fileID: 11493334}
   m_Layer: 0
   m_Name: char_ethan
   m_TagString: Player
@@ -2460,7 +2462,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 116
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!81 &8180838
 AudioListener:
@@ -2582,6 +2584,30 @@ MonoBehaviour:
   health: 100
   resetAfterDeathTime: 5
   deathClip: {fileID: 8300000, guid: 3c77607d75e1d9e44a5f856caf15a81b, type: 3}
+--- !u!114 &11493332
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 180770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d69a3f24101ac4f8669c28808b9795, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: {fileID: 0}
+--- !u!114 &11493334
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 180770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd20cb4a688495747b726ab6b5dd3610, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: {fileID: 0}
 --- !u!136 &13680838
 CapsuleCollider:
   m_ObjectHideFlags: 1

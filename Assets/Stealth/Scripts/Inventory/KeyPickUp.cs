@@ -28,7 +28,7 @@ public class KeyPickUp : MonoBehaviour {
 			AudioSource.PlayClipAtPoint(keyGrab, transform.position);
 			
 			// ... the player has a key ...
-			inventory.AddItem (2);
+			inventory.AddItem (3);
 			
 			// ... and destroy this gameobject.
 			Destroy(gameObject);

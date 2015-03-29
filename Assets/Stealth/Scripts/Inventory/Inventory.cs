@@ -120,7 +120,7 @@ public class Inventory : MonoBehaviour {
 		}
 	}
 
-	bool InventoryContains(int id) {
+	public bool InventoryContains(int id) {
 		bool found = false;
 		int i = 0;
 
