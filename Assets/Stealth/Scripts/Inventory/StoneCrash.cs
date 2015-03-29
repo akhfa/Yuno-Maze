@@ -21,9 +21,9 @@ public class StoneCrash : MonoBehaviour {
 
 	public IEnumerator setBomb()
 	{
-		yield return new WaitForSeconds (5);
+		yield return new WaitForSeconds (1);
 		Destroy (gameObject);
-		inventory.AddItem (1);
+		inventory.AddItem (2);
 		//AudioSource.PlayClipAtPoint(keyGrab, transform.position);
 	}
 

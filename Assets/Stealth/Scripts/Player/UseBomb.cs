@@ -29,6 +29,6 @@ public class UseBomb : MonoBehaviour {
 	{
 		yield return new WaitForSeconds (5);
 		Destroy(stone);
-		inventory.AddItem(1);
+		inventory.AddItem(2);
 	}
 }
